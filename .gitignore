@@ -1,0 +1,54 @@
+# Obsidian core ignores (recursive where applicable)
+*.obsidian/workspace*
+*.obsidian/app.json
+*.obsidian/hotkeys.json
+*.obsidian/cache/
+*.obsidian/graph.json  # Optional: If graph views aren't shared
+*.obsidian/appearance.json  # Optional: If themes/CSS aren't standardized
+*.obsidian/community-plugins.json  # Optional: If plugin lists aren't shared
+*.trash/
+
+# Plugin data (ignores data.json in any plugin subdir to protect sensitive info like API keys)
+*.obsidian/plugins/*/data.json
+
+# If not sharing plugins/themes/snippets entirely (uncomment if needed)
+# .obsidian/plugins/
+# .obsidian/themes/
+# .obsidian/snippets/
+
+# System/OS files (recursive ignores for junk files anywhere in the vault)
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+*._*
+*.DocumentRevisions-V100
+*.fseventsd
+*.Spotlight-V100
+*.TemporaryItems
+*.Trashes
+*.VolumeIcon.icns
+*.com.apple.timemachine.donotpresent
+*.AppleDB
+*.AppleDesktop
+*Network Trash Folder
+*.apdisk
+*Thumbs.db
+*ehthumbs.db
+*.desktop
+
+# Temp and backup files (recursive)
+*~
+*.tmp
+*.bak
+*.swp
+*.lock
+
+# IDE/editor specifics (if your team uses these; recursive)
+*.vscode/
+*.idea/
+*.sublime-*
+
+# Optional: Large attachments or media (uncomment patterns if your vault has many; consider Git LFS instead)
+# attachments/*.pdf
+# **/*.mp4
+# **/*.zip
